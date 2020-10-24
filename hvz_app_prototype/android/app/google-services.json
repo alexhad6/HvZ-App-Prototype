@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "266936435780",
+    "firebase_url": "https://hvz-app-prototype.firebaseio.com",
+    "project_id": "hvz-app-prototype",
+    "storage_bucket": "hvz-app-prototype.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266936435780:android:a39f205baa9b1b53326811",
+        "android_client_info": {
+          "package_name": "com.example.hvz_app_prototype"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266936435780-vckckqrep31g7sqj2uh2u14kv2nq6t9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hvz_app_prototype",
+            "certificate_hash": "de59c17a4e0ec6cde0c3a2dac1c5b169daee81f2"
+          }
+        },
+        {
+          "client_id": "266936435780-bv37qkr791h25iqoqirpufip21pve7ae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJy2-U8Ol9FLr8hUZFn-igB5zzaZJi1NM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266936435780-bv37qkr791h25iqoqirpufip21pve7ae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
