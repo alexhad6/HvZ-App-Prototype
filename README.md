@@ -1,8 +1,8 @@
 # HvZ-App-Prototype
 Prototypes for the Claremont Humans vs. Zombies app.
 
-## HTML and JavaScript prototype using Firebase Hosting
+## Web (HTML and JavaScript) Prototype
 https://github.com/alexhad6/HvZ-App-Prototype/tree/main/Firebase%20Web%20Hosting
 
-## Flutter prototype
+## Flutter Prototype
 https://github.com/alexhad6/HvZ-App-Prototype/tree/main/hvz_app_prototype
