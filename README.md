@@ -1,4 +1,4 @@
-# HvZ-App-Prototype
+# HvZ App Prototype
 Prototypes for the Claremont Humans vs. Zombies app.
 
 ## Flutter Prototype
