@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-
-// Import the firebase_core plugin
 import 'package:firebase_core/firebase_core.dart';
-
 import 'auth.dart';
 
 void main() {
@@ -17,16 +14,17 @@ class _AppState extends State<App> {
   // Set default `_initialized` and `_error` state to false
   bool _initialized = false;
   bool _error = false;
+  Auth auth;
 
   // Define an async function to initialize FlutterFire
   void _initializeFlutterFire() async {
     try {
       // Wait for Firebase to initialize and set `_initialized` state to true
       await Firebase.initializeApp();
-      initializeAuth();
       setState(() {
         _initialized = true;
       });
+      await Auth.initializeAuth();
     } catch (e) {
       // Set `_error` state to true if Firebase initialization fails
       setState(() {
