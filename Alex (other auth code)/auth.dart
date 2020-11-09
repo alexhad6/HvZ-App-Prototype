@@ -46,16 +46,16 @@ class Auth {
   static Auth _instance;
 
   /// Reference to the [FirebaseAuth] instance.
-  FirebaseAuth _firebaseAuth;
+  final FirebaseAuth _firebaseAuth;
 
   /// Reference to a [GoogleSignIn] instance.
-  GoogleSignIn _googleSignIn;
+  final GoogleSignIn _googleSignIn;
 
   /// Reference to the singleton instance of [Connectivity].
-  Connectivity _connectivity;
+  final Connectivity _connectivity;
 
   /// Reference the database component
-  Database _database;
+  final Database _database;
 
   /// The [User] that is currently signed in.
   User _user;
@@ -369,7 +369,7 @@ class Auth {
   }
 
   /// Private constructor that initializes the [FirebaseAuth] instance.
-  Auth._();
+  Auth._(this._firebaseAuth); // COULD USE THIS LIKE THIS
 
   /// Uses [Connectivity] to determine whether there is an internet connection.
   bool _connected() {

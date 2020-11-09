@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:tuple/tuple.dart';
-import 'package:hvz_app_prototype/auth_code.dart';
+import 'package:hvz_app_prototype/auth_simple.dart';
 
 void main() {
   runApp(App());
@@ -25,11 +24,8 @@ class _AppState extends State<App> {
       setState(() {
         _initialized = true;
       });
-      await Auth.initialize();
-      // auth = Auth();
-      // Tuple2<bool, String> message =
-      //     await auth.signInWithEmail('test@example.com', 'passwor');
-      // print(message);
+      auth = Auth();
+      await auth.initialize();
     } catch (e) {
       // Set `_error` state to true if Firebase initialization fails
       setState(() {
